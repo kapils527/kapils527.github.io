@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Login </title>
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+<script src="http://code.jquery.com/jquery-2.x-git.js"></script>
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    <style>
+        form{
+            background-color: skyblue;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+        <div class="container">
+        <div class="row">
+            <h2>Add Student Records</h2>
+    <form role="form" method="post" action="/api/user" class="contact-form">
+        <div class="col-md-6">
+         <label for="sId">StudentId</label>
+       <input type="text" class="form-control" required name="fname">
+        <label for="fname">First Name</label>
+       <input type="text" class="form-control" required name="fname">
+        <label for="lname">Last Name</label>
+        <input type="text" class="form-control" required name="lname">
+        <label for="mail">E-Mail</label>
+        <input type="email" class="form-control" required name="eMail" id="mail">
+        <label for="date">Date Of Birth</label>
+        <input type="text" class="form-control" required name="dob" id="date">
+        <label for="num">Contact No.</label>
+        <input type="text" class="form-control" required id="num" name="number">
+        <label for="dept">Department</label>
+        <input type="" class="form-control" id="dept" name="department">
+        <br>
+        <button class="btn btn-success">Add User</button>
+        </div>
+    </form>
+        </div>
+    </div>
+    </body>
+</html>
